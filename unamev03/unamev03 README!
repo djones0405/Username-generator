@@ -1,0 +1,13 @@
+Username Generator
+
+This is a Python script that generates unique usernames based on a user's first and last name, and saves them to a CSV file. The script also checks for duplicates and allows the user to choose a new username or edit the existing one if the suggested username is already taken.
+Dependencies
+
+This script requires the csv and re modules, which are included in the standard library of Python.
+How to Use
+
+To use this script, simply run the suggest_username function with the name of the CSV file you want to save the usernames to. The function will prompt you to enter the first name and last name of the user, and will generate a suggested username based on those names.
+
+If the suggested username is already taken, the function will prompt you to choose between entering a new username or editing the existing one. If you choose to enter a new username, the function will prompt you to enter a new valid and non-duplicate username. If you choose to edit the existing username, the function will prompt you to enter a new valid and non-duplicate username.
+
+Once you have entered a valid username, the function will save it to the CSV file and print out the suggested username.
