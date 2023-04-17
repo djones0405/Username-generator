@@ -1,21 +1,4 @@
 import csv
-import re
-import tkinter as tk
-from tkinter import messagebox
-from tkinter import simpledialog
-import string
-import random
-
-def check_duplicates(username, csv_file):
-    with open(csv_file, 'r') as file:
-        reader = csv.reader(file)
-        for row in reader:
-            if username == row[0]:
-                return True
-    return False
-
-
-import csv
 import string
 import tkinter as tk
 from tkinter import messagebox
